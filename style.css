@@ -1,0 +1,125 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#111827;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-size:16px;
+}
+
+.logo{
+color:#facc15;
+}
+
+/* HERO SECTION */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px;
+}
+
+.hero-text h1{
+font-size:50px;
+}
+
+.hero-text span{
+color:#facc15;
+}
+
+.hero-text p{
+margin:20px 0;
+font-size:20px;
+}
+
+.hero button{
+padding:10px 25px;
+background:#facc15;
+border:none;
+cursor:pointer;
+font-weight:bold;
+}
+
+.hero-img img{
+width:300px;
+border-radius:10px;
+}
+
+/* ABOUT */
+
+.about{
+text-align:center;
+padding:60px 20px;
+}
+
+.about h2{
+color:#facc15;
+margin-bottom:20px;
+}
+
+/* SERVICES */
+
+.services{
+padding:60px 80px;
+text-align:center;
+}
+
+.service-box{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#1f2937;
+padding:30px;
+width:250px;
+border-radius:10px;
+}
+
+.card:hover{
+background:#facc15;
+color:black;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+padding:60px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#111827;
+}
